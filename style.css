@@ -19,10 +19,11 @@
 
 body, html {
     font-family: 'Manrope', sans-serif;
-    background: var(--bg);
+    background: var(--primary-bg);
     color: var(--primary-text);
     line-height: 1.5;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .nav-flex-container {
@@ -81,7 +82,6 @@ body, html {
     background: linear-gradient(135deg, #e7f2ed, #f7f8f6);
 }
 
-
 .hero-inner {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -114,7 +114,7 @@ body, html {
 }
 
 .hero-text {
-    width: 550px;
+    max-width: 600px;
     line-height: 1.5;
 }
 
@@ -150,7 +150,6 @@ body, html {
     color: var(--ash);
     font-size: 15px;
 }
-
 
 .preferences {
     background: var(--primary-bg);
