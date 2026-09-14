@@ -23,7 +23,6 @@ body, html {
     color: var(--primary-text);
     line-height: 1.5;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 .nav-flex-container {
@@ -50,6 +49,12 @@ body, html {
     color: var(--green);
 }
 
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
 
 .navbar-nav {
     display: flex;
@@ -118,7 +123,10 @@ body, html {
     line-height: 1.5;
 }
 
-.finder-section,
+.finder-section {
+    background: linear-gradient(135deg, var(--primary-bg), var(--versatile));
+    padding: 80px 0;
+}
 .spots-section {
     background: linear-gradient(135deg, var(--versatile), var(--primary-bg));
     padding: 80px 0;
