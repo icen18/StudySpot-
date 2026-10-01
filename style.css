@@ -64,9 +64,8 @@ section {
   text-align: center;
 }
 
-/* Rounded Pill Hover & Active */
-.nav-link:hover,
-.nav-link.active {
+
+.nav-link:hover{
   color: var(--primary) !important;
   background-color: var(--primary-tint);
 }
@@ -122,7 +121,6 @@ section {
   line-height: 1.6;
 }
 
-/* Custom Buttons */
 .btn-primary-custom {
   display: inline-flex;
   align-items: center;
@@ -173,7 +171,6 @@ section {
   padding: 0.9rem 2rem;
 }
 
-/* Stats */
 .stat-item strong {
   display: block;
   font-size: clamp(1.25rem, 2.5vw, 1.5rem);
@@ -296,6 +293,16 @@ section {
   box-shadow: 0 0 0 3px rgba(45, 106, 79, 0.15);
 }
 
+.filter-actions .btn {
+  width: auto;
+}
+
+@media (max-width: 575.98px) {
+  .filter-actions .btn {
+    width: 100%;
+  }
+}
+
 /* SPOTS SECTION */
 .spots-section {
   background: #f7faf8;
@@ -402,7 +409,6 @@ section {
   border-top: 1px solid var(--border);
 }
 
-/* Mobile specific tweaks */
 @media (max-width: 576px) {
   .hero-stats {
     width: 100%;
