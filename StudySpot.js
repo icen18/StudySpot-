@@ -38,7 +38,7 @@ const studySpots = [
   {
     id: 4,
     name: "Campus Cafeteria",
-    location: "CCS Cafeteria Annex",
+    location: "CCS Cafeteria",
     badge: "Food & Drinks",
     image: "images/cafeteria.avif",
     noise: "Moderate",
